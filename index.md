@@ -3,22 +3,16 @@ title: Home
 layout: page
 ---
 
-# Bootstrap Workshop Template!
+{% include figure.html img="banner.jpg" alt="title card with a photo of the author and a black and white landscape photo" caption="February 2024 Presentation for Ellen Kittell's History 290 Class" width="100%" %}
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+* [slides](https://indd.adobe.com/view/e4195f12-c5e6-4790-9b69-64f016fd3921)
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
-
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+* [test site with functioning elements](https://thecdil.github.io/taylor-ds/)
 
 {% include toc.html %}
 
 ------
 
 {% include template/credits.html %}
+
+{% include feature/image.html objectid="demo_001" %}

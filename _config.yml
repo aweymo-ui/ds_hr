@@ -10,28 +10,28 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: workshop-template-b
+title: Using Digital Scholarship to Conduct and Present Historical Research
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+title-icon: 
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
-description: "Create a workshop website quick and easy!"
-keywords: "workshops, websites, gh-pages, jekyll"
+description: "February 2024 Presentation"
+keywords: 
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
-featured-image: "/images/uidaho-workshop.jpg"
+featured-image: "/images/banner.jpg"
 # add search box to footer? true/false
 search: true
 
 # author settings for cc-by, appears in the footer and credits
-author: evan will
+author: Andrew Weymouth
 # your github username for link [optional]
-github_username: evanwill
+github_username: aweymo
 # year or date published
-pub_year: 2021
+pub_year: 2024
 # location of code, the full url to your github repository
 source-code: https://github.com/evanwill/workshop-template-b
 
@@ -77,3 +77,28 @@ defaults:
 exclude: [README.md, LICENSE, assets/lib/README.md]
 # Build settings
 markdown: kramdown
+
+# THEME FONTS [optional!]
+base-font-size: 1.4em
+text-color: "#191919"
+link-color: "#0d6efd"
+base-font-family: Playfair
+font-cdn: <link href="https://fonts.googleapis.com/css?family=Playfair&display=swap" rel="stylesheet">
+
+# THEME ICONS [optional!]
+# default icons can be overridden or new icons can be added using "icons" object
+# the template uses Bootstrap Icons, https://icons.getbootstrap.com/
+# find the names on the BI icons page, e.g. file-image
+#
+# icons: 
+#   icon-image: image
+#   icon-audio: soundwave
+#   icon-video: film
+#   icon-pdf: file-pdf
+#   icon-record: file-text
+#   icon-panorama: image-alt
+#   icon-compound-object: collection 
+#   icon-multiple: postcard
+#   icon-default: file-earmark # fall back icon
+#   icon-back-to-top: arrow-up-square
+
